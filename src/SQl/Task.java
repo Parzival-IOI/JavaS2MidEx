@@ -1,3 +1,5 @@
+package SQl;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -27,8 +29,8 @@ public class Task {
 
         this.InsertResultSet(resultSet, 1, "coke", 2.00, true);
         this.InsertResultSet(resultSet, 2, "pepsi", 2.00, true);
-        this.InsertResultSet(resultSet, 3, "kiss", 1.50, true);
-        this.InsertResultSet(resultSet, 4, "coke", 2.00, false);
+        this.InsertResultSet(resultSet, 3, "kizz", 1.50, true);
+        this.InsertResultSet(resultSet, 4, "Redbull", 2.00, false);
 
         System.out.println("successfully");
     }
